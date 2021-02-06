@@ -17,10 +17,15 @@ with source_data as (
     select null as id, 'bobby' as name
     union all
     select 2 as id, 'tina' as name
+    union all
+    select 3 as id, 'tommmy' as name
+    union all
+    select 4 as id, 'crystal' as name
 )
 
 select *
 from source_data
+
 
 /*
     Uncomment the line below to remove records with null `id` values
