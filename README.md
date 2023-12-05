@@ -1,11 +1,10 @@
-Welcome to your new dbt project!
+This is my starter dbt project based on dbt's starter package, thanks for reading!
 
 ### Using the starter project
 
 Try running the following commands:
 - dbt run
 - dbt test
-
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
