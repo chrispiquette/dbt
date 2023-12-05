@@ -1,8 +1,8 @@
 {
   "type": "service_account",
   "project_id": "project-cp-2021",
-  "private_key_id": "N/A", ## Blocked for privacy
-  "private_key": N/A, ## Blocked for privacy
+  "private_key_id": N/A, ## Blocked for privacy ##
+  "private_key": N/A, ## Blocked for privacy ##
   "client_email": "dbt-491@project-cp-2021.iam.gserviceaccount.com",
   "client_id": "116969969818927021907",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
