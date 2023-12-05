@@ -1,0 +1,22 @@
+ my-mssql-db:
+  target: prod
+  outputs:
+    dev:
+      type: mssql
+      threads: 1
+      host: 127.0.0.1
+      port: 3306
+      user: chpiquette
+      pass: Acxiom456!
+      dbname: biz_db_example
+      schema: classicmodels
+
+    prod:
+      type: mssql
+      threads: 1
+      host: 127.0.0.1
+      port: 3306
+      user: chpiquette
+      pass: Acxiom456!
+      dbname: biz_db_example
+      schema: classicmodels
