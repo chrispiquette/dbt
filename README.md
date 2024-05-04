@@ -1,7 +1,7 @@
 This is a development dbt project for writing in a BigQuery database.
 
 Database link:
-https://console.cloud.google.com/bigquery?project=project-cp-2021&supportedpurview=project&d=dbt_data&p=project-cp-2021&t=my_first_dbt_model&page=table
+https://console.cloud.google.com/bigquery?project=project-cp-2021&supportedpurview=project&d=dbt_data&p=project-cp-2021&t=my_first_dbt_model&page=table](https://console.cloud.google.com/bigquery?project=project-cp-2021&supportedpurview=project&d=dbt_data&p=project-cp-2021&t=my_first_dbt_model&page=table&ws=!1m4!1m3!3m2!1sproject-cp-2021!2sdbt_data.
 
 ### Using the starter project
 
