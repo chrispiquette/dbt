@@ -1,7 +1,6 @@
 This is a dbt project I created where I created, transformed and publishing data tables to BigQuery after building on my machine.
 
-[BigQuery Database link]
-(https://console.cloud.google.com/bigquery?project=project-cp-2021&supportedpurview=project&supportedpurview=project&d=dbt_data&d=dbt_data&p=project-cp-2021&p=project-cp-2021&t=my_first_dbt_model&t=my_first_dbt_model&page=table%5D(https:%2F%2Fconsole.cloud.google.com%2Fbigquery%3Fproject%3Dproject-cp-2021&page=table&ws=!1m5!1m4!4m3!1sproject-cp-2021!2sdbt_data!3smy_first_dbt_model).
+[BigQuery Database link](https://console.cloud.google.com/bigquery?project=project-cp-2021&supportedpurview=project&supportedpurview=project&d=dbt_data&d=dbt_data&p=project-cp-2021&p=project-cp-2021&t=my_first_dbt_model&t=my_first_dbt_model&page=table%5D(https:%2F%2Fconsole.cloud.google.com%2Fbigquery%3Fproject%3Dproject-cp-2021&page=table&ws=!1m5!1m4!4m3!1sproject-cp-2021!2sdbt_data!3smy_first_dbt_model).
 
 ### Details:
 1. Setup Python.
