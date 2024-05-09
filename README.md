@@ -11,11 +11,6 @@ https://console.cloud.google.com/bigquery?project=project-cp-2021&supportedpurvi
 5. Created a SQL data model in this repository, and created a second model dependent on the first.
 6. Ran dbt-core and published to BigQuery.
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
