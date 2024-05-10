@@ -14,6 +14,7 @@ Here is a dbt project I created where I modeled, transformed and published data 
 9. Quality-assured data in BigQuery. Here's an example of a BigQuery table I created, with the "country_name" field created from a Macro:
 [Users by Country Table, Utilizing a Macro](https://github.com/chrispiquette/dbt/blob/main/users_country_conversion_table.png):
 ![GitHub Logo](https://github.com/chrispiquette/dbt/blob/main/users_country_conversion_table.png)
+[Macro logic here! ](https://github.com/chrispiquette/dbt/blob/main/macros/general.sql)
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
