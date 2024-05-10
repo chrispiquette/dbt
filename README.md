@@ -9,7 +9,7 @@ This is a dbt project I created where I modeled, transformed and published data 
 4. Added the YAML configuration file "profiles.yml" to be able to connect my machine to BigQuery.
 5. Created a SQL data model in this repository, and created a second model dependent on the first.
 6. Ran dbt-core and published to BigQuery.
-7. Modeled users data (see users file), created a Macro file, and inherited the macro for a country_conversion (see users_country_conversion)
+7. Modeled users data (see users file), created a Macro file (general_macros), and inherited the macro for a country_conversion (see users_country_conversion)
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
