@@ -11,7 +11,7 @@ Here is a dbt project I created where I modeled, transformed and published data 
 6. Ran dbt-core and published to BigQuery.
 7. Modeled users data (see users file), created a Macro file (macros/general.sql), and inherited the macro for a country_conversion (see users_country_conversion)
 8. Ensured data passed dbt tests.
-9. Quality-assured data in BigQuery. Example of final table, with "country_name" created from a Macro:
+9. Quality-assured data in BigQuery. Here's an example of a BigQuery table I created, with the "country_name" field created from a Macro:
 [Users by Country Table, Utilizing a Macro](https://github.com/chrispiquette/dbt/blob/main/users_country_conversion_table.png):
 ![GitHub Logo](https://github.com/chrispiquette/dbt/blob/main/users_country_conversion_table.png)
 
