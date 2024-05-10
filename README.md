@@ -1,4 +1,4 @@
-This is a dbt project I created where I created, transformed and publishing data tables to BigQuery after building on my machine.
+This is a dbt project I created where I modeled, transformed and published data tables to BigQuery after building on my machine.
 
 [BigQuery Database link](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1sproject-cp-2021!2sdbt_data).
 
