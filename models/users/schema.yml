@@ -1,0 +1,30 @@
+
+version: 2
+
+models:
+  - name: users
+    description: "Basic DBT model of Users with their locations"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: users_usa
+    description: "Use the `ref` function to select from other models, filtering only for 'US' data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: users_country_conversion
+    description: "Create a table that inherits our 'users' data and using a Macro adds a column converting country_code to country name."
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
