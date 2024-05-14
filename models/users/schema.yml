@@ -3,7 +3,7 @@ version: 2
 
 models:
   - name: users
-    description: "Basic DBT model of Users with their locations"
+    description: "One unique user per row, and user attributes."
     columns:
       - name: id
         description: "The primary key for this table"
@@ -12,7 +12,7 @@ models:
           - not_null
 
   - name: users_usa
-    description: "Use the `ref` function to select from other models, filtering only for 'US' data"
+    description: "One unique user per row, USA users only."
     columns:
       - name: id
         description: "The primary key for this table"
@@ -21,7 +21,7 @@ models:
           - not_null
 
   - name: users_country_conversion
-    description: "Create a table that inherits our 'users' data and using a Macro adds a column converting country_code to country name."
+    description: "'users' data, using a Macro adds a column converting country_code to country name."
     columns:
       - name: id
         description: "The primary key for this table"
